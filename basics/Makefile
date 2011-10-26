@@ -1,4 +1,4 @@
-# Makefile for JustForFun Files
+# Makefile for basics Files
 
 # A few variables
 
@@ -9,7 +9,7 @@ SRC_DIR=.
 EXE_DIR=../demo/exe
 
 EXES = \
-    ${EXE_DIR}/hello_world \
+	${EXE_DIR}/hello_world \
 	${EXE_DIR}/init_func_example \
 	${EXE_DIR}/key_code \
 	${EXE_DIR}/mouse_menu \
@@ -21,7 +21,8 @@ EXES = \
 	${EXE_DIR}/simple_key \
 	${EXE_DIR}/temp_leave \
 	${EXE_DIR}/win_border \
-	${EXE_DIR}/with_chgat
+	${EXE_DIR}/with_chgat \
+	${EXE_DIR}/acs_vars
 
 ${EXE_DIR}/%: %.o
 	${CC} -o $@ $< ${LIBS}

@@ -2,7 +2,7 @@ Description of files
 --------------------
   basics
     |
-    |----> acs_vars.c	    -- ACS_ variables example
+    |----> acs_vars.c		-- ACS_ variables example
     |----> hello_world.c	-- Simple "Hello World" Program
     |----> init_func_example.c	-- Initialization functions example
     |----> key_code.c		-- Shows the scan code of the key pressed
