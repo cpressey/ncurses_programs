@@ -1,8 +1,8 @@
-# Makefile for JustForFun Files
+# Makefile for panels Files
 
 # A few variables
 
-CC=gcc
+CC?=gcc
 LIBS=-lpanel -lncurses
 
 SRC_DIR=.

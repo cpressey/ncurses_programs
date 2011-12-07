@@ -2,7 +2,7 @@
 
 # A few variables
 
-CC=gcc
+CC?=gcc
 LIBS=-lncurses
 
 SRC_DIR=.

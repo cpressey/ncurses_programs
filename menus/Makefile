@@ -1,8 +1,8 @@
-# Makefile for JustForFun Files
+# Makefile for menus Files
 
 # A few variables
 
-CC=gcc
+CC?=gcc
 LIBS=-lmenu -lncurses
 
 SRC_DIR=.
